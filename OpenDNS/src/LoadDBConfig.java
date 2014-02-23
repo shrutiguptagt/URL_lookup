@@ -50,7 +50,7 @@ public class LoadDBConfig
 		BufferedReader br=null;
 		try
 		{
-			File folder=new File("./");
+			File folder=new File("./../config");
 			List<String> lines;
 
 			for(File file : folder.listFiles())
